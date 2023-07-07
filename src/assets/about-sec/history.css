@@ -1,0 +1,36 @@
+.history-area,.vision-area,.mission-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+   .img{
+    width: 40%;
+  }
+   .img img{
+    width: 100%;
+  }
+  .history-para{
+    width: 55%;
+  }
+ .history-para .color{
+    display: flex;
+    align-items: center;
+  }
+  .history-para .color .pp{
+    width: 15px;
+    height: 15px;
+    background-color: #FF805D;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+   .history-para .color h2{
+    border-bottom: 3px solid #FF805D;
+  }
+   .history-para p{
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 15px 0;
+  }
+  .history-para a{
+    text-decoration: underline;
+  }
